@@ -1,12 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:100&display=swap');
+
 body {
     font: 14px "Century Gothic", Futura, sans-serif;
     margin: 20px;
-  }
+    background-image: url(https://live.staticflickr.com/296/20309290542_884c1f3af6_k.jpg);
+}
   
   ol, ul {
     padding-left: 30px;
   }
-  
+  .game-board{
+    margin-right:auto;
+    margin-left:auto;
+  }
   .board-row:after {
     clear: both;
     content: "";
@@ -15,21 +21,26 @@ body {
   
   .status {
     margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size:5em;
+    color:white;
   }
   
   .square {
-    background: #fff;
-    border: 1px solid #999;
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgb(0, 198, 248);
     float: left;
-    font-size: 24px;
-    font-weight: bold;
+    color:rgb(189, 252, 16);
+    font-size: 15em;
     line-height: 34px;
-    height: 34px;
+    height: 1em;
     margin-right: -1px;
     margin-top: -1px;
     padding: 0;
+    font-family: 'Raleway', sans-serif;
     text-align: center;
-    width: 34px;
+    width: 1em;
   }
   
   .square:focus {
@@ -47,6 +58,7 @@ body {
   
   .game-info {
     margin-left: 20px;
+    color:rgb(0, 198, 248);
   }
   
   
